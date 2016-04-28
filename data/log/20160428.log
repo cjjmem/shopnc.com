@@ -1,0 +1,9 @@
+[2016-04-28 10:10:07] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1461809407' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-04-28 10:10:18] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1461809418' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-04-28 12:01:56] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Duplicate entry '2016' for key 'PRIMARY'
+INSERT  INTO `33hao_mb_special_item` (special_id,item_type,item_usable,item_sort,item_id) VALUES ('0','goods2','0','255','2016')

@@ -1,0 +1,6 @@
+[2016-04-25 14:00:43] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '1' ) LIMIT 1  
+[2016-04-25 14:00:43] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '1' ) ORDER BY order_id desc LIMIT 0,20  
