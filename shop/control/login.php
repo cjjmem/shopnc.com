@@ -160,6 +160,7 @@ class loginControl extends BaseHomeControl {
 	 * @return
 	 */
 	public function usersaveOp() {
+
 		//重复注册验证
 		if (process::islock('reg')){
 			showDialog(Language::get('nc_common_op_repeat'));
@@ -186,6 +187,12 @@ class loginControl extends BaseHomeControl {
 		//添加奖励积分ID BY haoid.cn V3
 		$register_info['inviter_id'] = intval(base64_decode($_COOKIE['uid']))/1;
         $member_info = $model_member->register($register_info);
+
+        $model_relation	= Model('relation');
+        $res =  $model_relation->index();
+        showDialog($res);
+
+
         if(!isset($member_info['error'])) {
             $model_member->createSession($member_info,true);
 			process::addprocess('reg');

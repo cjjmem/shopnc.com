@@ -87,6 +87,7 @@ final class Base{
 		if (class_exists($class_name)){
 			$main = new $class_name();
 			$function = $_GET['op'].'Op';
+
 			if (method_exists($main,$function)){
 				$main->$function();
 			}elseif (method_exists($main,'indexOp')){

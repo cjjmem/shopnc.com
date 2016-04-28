@@ -11,6 +11,8 @@ if (!@include(BASE_PATH.'/control/control.php')) exit('control.php isn\'t exists
 if (!@include(BASE_CORE_PATH.'/33hao.php')) exit('33hao.php isn\'t exists!');
 	$wapurl = WAP_SITE_URL;
 	$agent = $_SERVER['HTTP_USER_AGENT'];
+
+
 	if(strpos($agent,"comFront") || strpos($agent,"iPhone") || strpos($agent,"MIDP-2.0") || strpos($agent,"Opera Mini") || strpos($agent,"UCWEB") || strpos($agent,"Android") || strpos($agent,"Windows CE") || strpos($agent,"SymbianOS")){
 		global $config;
         if(!empty($config['wap_site_url'])){

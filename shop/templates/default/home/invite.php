@@ -54,7 +54,7 @@ function initInviteForm() {
 
 	    } );
 
-	    clip.addEventListener('mouseDown', function(client) { 
+	    clip.addEventListener('mouseDown', function(client) {
 
 	    	clip.setText($(".i-invite-link").val());
 
@@ -88,10 +88,10 @@ $member_id = base64_encode(intval($_SESSION['member_id'])*1);
             <input type="text" readonly value="<?php echo BASE_SITE_URL;?>/#V3<?php echo $member_id;?>" class="std-input i-invite-link">
             <a class="button copy-btn" data-url="<?php echo SHOP_TEMPLATES_URL;?>/images/invite/ZeroClipboard.swf" id="copy-button" href="javascrit:;" hidefocus="true">复制</a> </div>
         </div>
-        <div class="invite-share-site clearfix"> 
+        <div class="invite-share-site clearfix">
           <!-- Baidu Button BEGIN -->
           <p id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'<?php echo BASE_SITE_URL;?>/#V3<?php echo intval($_SESSION['member_id'])*1;?>'}"> <span class="bds_more">快捷邀请：</span> <a class="bds_qzone">QQ空间</a> <a class="bds_tsina">新浪微博</a> <a class="bds_tqq">腾讯微博</a> <a class="bds_taobao">我的淘宝</a> <a class="bds_renren">人人网</a> <a class="bds_douban">豆瓣</a> </p>
-          <!-- Baidu Button END --> 
+          <!-- Baidu Button END -->
         </div>
         <div class="invite-rebate"><a href="<?php echo urlShop('member_points','index');?>" target="_blank" hidefocus="true"><img src="<?php echo SHOP_TEMPLATES_URL;?>/images/invite/income.png"></a></div>
         <div class="invite-rules">
@@ -100,14 +100,14 @@ $member_id = base64_encode(intval($_SESSION['member_id'])*1);
             (例如：好友购买100元商品，您可获得10积分)</p>
         </div>
       </div>
-      
-      <!-- Baidu Button BEGIN --> 
-      <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=645315" ></script> 
-      <script type="text/javascript" id="bdshell_js"></script> 
+
+      <!-- Baidu Button BEGIN -->
+      <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=645315" ></script>
+      <script type="text/javascript" id="bdshell_js"></script>
       <script type="text/javascript">
     var bds_config = {'bdText':'购买这么多年，才发现，原来在【<?php echo $output['setting_config']['site_name']; ?>】购买东西这么便宜的，赶紧试试吧，一般人我不告诉他！','bdPic':'<?php echo BASE_SITE_URL;?>/data/upload/shop/adv/snsspic.png','bdDesc':'分享个我的购物省钱小窍门，我在【<?php echo $output['setting_config']['site_name']; ?>】购买的都是正品，超便宜，省钱So easy！','review':'off'};
     document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
-</script> 
+</script>
       <!-- Baidu Button END --> </div>
   </div>
 </div>

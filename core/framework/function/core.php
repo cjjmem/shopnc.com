@@ -2262,7 +2262,6 @@ function urlShop($act = '', $op = '', $args = array(), $store_domain = ''){
                 break;
         }
     }
-
     return url($act, $op, $args, $rewrite_flag, SHOP_SITE_URL);
 }
 

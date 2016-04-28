@@ -8,8 +8,9 @@
  * by 33hao 好商城V3  www.haoid.cn 开发
  */
 defined('InShopNC') or exit('Access Invalid!');
-class memberModel extends Model {
 
+
+class memberModel extends Model {
     public function __construct(){
         parent::__construct('member');
     }
@@ -586,4 +587,19 @@ class memberModel extends Model {
 		}
 		return $grade_arr;
 	}
+
+
+    /**
+     * 查看一度人脉数
+     * @param int $member_id
+     * @return array
+     */
+    public function findOneCon($memberid) {
+        return $this->table('member')->where(array('inviter_id'=>$memberid))->count();
+    }
+
 }
+
+
+
+

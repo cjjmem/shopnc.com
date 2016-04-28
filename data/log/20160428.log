@@ -7,3 +7,267 @@ SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( vou
 [2016-04-28 12:01:56] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
 ERR: Db Error: Duplicate entry '2016' for key 'PRIMARY'
 INSERT  INTO `33hao_mb_special_item` (special_id,item_type,item_usable,item_sort,item_id) VALUES ('0','goods2','0','255','2016')
+[2016-04-28 16:29:06] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832146')
+[2016-04-28 16:29:20] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832160')
+[2016-04-28 16:37:17] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832637')
+[2016-04-28 16:37:37] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832657')
+[2016-04-28 16:37:37] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'inviter_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_member_relation` WHERE ( inviter_id = '5' ) LIMIT 1  
+[2016-04-28 16:37:58] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832678')
+[2016-04-28 16:37:58] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'inviter_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_member_relation` WHERE ( inviter_id = '5' ) LIMIT 1  
+[2016-04-28 16:37:58] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832678')
+[2016-04-28 16:37:58] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'inviter_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_member_relation` WHERE ( inviter_id = '5' ) LIMIT 1  
+[2016-04-28 16:37:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832679')
+[2016-04-28 16:37:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'inviter_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_member_relation` WHERE ( inviter_id = '5' ) LIMIT 1  
+[2016-04-28 16:37:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832679')
+[2016-04-28 16:37:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'inviter_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_member_relation` WHERE ( inviter_id = '5' ) LIMIT 1  
+[2016-04-28 16:37:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832679')
+[2016-04-28 16:37:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'inviter_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_member_relation` WHERE ( inviter_id = '5' ) LIMIT 1  
+[2016-04-28 16:39:18] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832758')
+[2016-04-28 16:40:28] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832828')
+[2016-04-28 16:40:44] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461832844')
+[2016-04-28 17:09:19] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834559','1461834559')
+[2016-04-28 17:09:19] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id=NULL,openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834559',createtime='1461834559',degree1='1' WHERE ( member_id = '5' )
+[2016-04-28 17:09:19] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '5' )
+[2016-04-28 17:09:45] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id=NULL,openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834585',degree1='2' WHERE ( member_id = '1' )
+[2016-04-28 17:09:45] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '1' )
+[2016-04-28 17:09:53] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834593','1461834593')
+[2016-04-28 17:09:53] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id=NULL,openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834593',createtime='1461834593',degree1='0' WHERE ( member_id = '2' )
+[2016-04-28 17:09:53] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '2' )
+[2016-04-28 17:10:00] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834600','1461834600')
+[2016-04-28 17:10:00] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id=NULL,openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834600',createtime='1461834600',degree1='2' WHERE ( member_id = '3' )
+[2016-04-28 17:10:00] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '3' )
+[2016-04-28 17:10:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Column 'id' cannot be null
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES (NULL,'',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834605','1461834605')
+[2016-04-28 17:10:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id=NULL,openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834605',createtime='1461834605',degree1='0' WHERE ( member_id = '4' )
+[2016-04-28 17:10:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '4' )
+[2016-04-28 17:11:06] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='1',openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834666',degree1='2' WHERE ( member_id = '1' )
+[2016-04-28 17:11:06] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '1' )
+[2016-04-28 17:11:19] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834679','1461834679')
+[2016-04-28 17:11:19] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='1',openid='',uniacid=NULL,acid=NULL,gradeid='0',parentid=NULL,rankid=NULL,agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461834679',createtime='1461834679',degree1='0' WHERE ( member_id = '2' )
+[2016-04-28 17:11:19] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '2' )
+[2016-04-28 17:12:23] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834743','1461834743')
+[2016-04-28 17:12:56] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834776','1461834776')
+[2016-04-28 17:12:58] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','',NULL,NULL,'0',NULL,NULL,'0','0','','','','','0','1461834778','1461834778')
+[2016-04-28 17:16:09] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834969','1461834969')
+[2016-04-28 17:16:17] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834977','1461834977')
+[2016-04-28 17:16:27] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834987','1461834987')
+[2016-04-28 17:16:28] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834988','1461834988')
+[2016-04-28 17:16:28] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834988','1461834988')
+[2016-04-28 17:16:28] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834988','1461834988')
+[2016-04-28 17:16:29] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `33hao_member_relation` (id,openid,uniacid,acid,gradeid,parentid,rankid,agentid,depth,path,threepath,agentpath,agentthreepath,agentdepth,updatetime,createtime) VALUES ('1','','0','0','0',NULL,'0','0','0','','','','','0','1461834989','1461834989')
+[2016-04-28 17:20:26] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='2',openid='',uniacid='0',acid='0',gradeid='0',parentid='0',rankid='0',agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835226',createtime='1461835226',degree1='0' WHERE ( member_id = '2' )
+[2016-04-28 17:20:26] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '2' )
+[2016-04-28 17:20:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='3',openid='',uniacid='0',acid='0',gradeid='0',parentid='1',rankid='0',agentid='0',depth='1',path='[1]',threepath='[1]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835259',createtime='1461835259',degree1='2' WHERE ( member_id = '3' )
+[2016-04-28 17:20:59] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '3' )
+[2016-04-28 17:21:04] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='4',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='1',path='[3]',threepath='[3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835264',createtime='1461835264',degree1='0' WHERE ( member_id = '4' )
+[2016-04-28 17:21:04] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '4' )
+[2016-04-28 17:21:10] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='5',openid='',uniacid='0',acid='0',gradeid='0',parentid='1',rankid='0',agentid='0',depth='1',path='[1]',threepath='[1]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835270',createtime='1461835270',degree1='1' WHERE ( member_id = '5' )
+[2016-04-28 17:21:10] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '5' )
+[2016-04-28 17:21:14] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='1',path='[3]',threepath='[3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835274',createtime='1461835274',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:21:14] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:29:27] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835767',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:29:27] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:29:52] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='1',openid='',uniacid='0',acid='0',gradeid='0',parentid=NULL,rankid='0',agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835792',createtime='1461835792',degree1='2' WHERE ( member_id = '1' )
+[2016-04-28 17:29:52] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '1' )
+[2016-04-28 17:29:57] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='2',openid='',uniacid='0',acid='0',gradeid='0',parentid='0',rankid='0',agentid='0',depth='0',path='',threepath='',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835797',createtime='1461835797',degree1='0' WHERE ( member_id = '2' )
+[2016-04-28 17:29:57] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '2' )
+[2016-04-28 17:30:02] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='3',openid='',uniacid='0',acid='0',gradeid='0',parentid='1',rankid='0',agentid='0',depth='1',path='[1]',threepath='[1]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835802',createtime='1461835802',degree1='2' WHERE ( member_id = '3' )
+[2016-04-28 17:30:02] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '3' )
+[2016-04-28 17:30:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='4',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835805',createtime='1461835805',degree1='0' WHERE ( member_id = '4' )
+[2016-04-28 17:30:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '4' )
+[2016-04-28 17:30:10] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='5',openid='',uniacid='0',acid='0',gradeid='0',parentid='1',rankid='0',agentid='0',depth='1',path='[1]',threepath='[1]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835810',createtime='1461835810',degree1='1' WHERE ( member_id = '5' )
+[2016-04-28 17:30:10] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '5' )
+[2016-04-28 17:30:14] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835814',createtime='1461835814',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:30:14] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:31:50] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835910',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:31:50] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:32:02] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835922',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:32:02] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:32:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835925',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:32:05] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:32:53] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835973',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:32:53] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:33:13] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_member_relation` SET id='6',openid='',uniacid='0',acid='0',gradeid='0',parentid='3',rankid='0',agentid='0',depth='2',path='[1][3]',threepath='[1][3]',agentpath='',agentthreepath='',agentdepth='0',updatetime='1461835993',degree1='0' WHERE ( member_id = '6' )
+[2016-04-28 17:33:13] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:33:24] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:33:47] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '6' )
+[2016-04-28 17:33:57] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '1' )
+[2016-04-28 17:34:02] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '2' )
+[2016-04-28 17:34:07] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '3' )
+[2016-04-28 17:34:11] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '4' )
+[2016-04-28 17:34:16] /shop/index.php?act=relation&op=index ( act=relation&op=index ) 
+ERR: Db Error: Unknown column 'agentid' in 'field list'
+UPDATE `33hao_member` SET agentid='0' WHERE ( member_id = '5' )
